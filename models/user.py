@@ -1,5 +1,5 @@
 from db import db
-
+import sqlite3
 
 class UserModel(db.Model):
     __tablename__ = 'users'
